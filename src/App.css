@@ -1,6 +1,5 @@
 body {
   background-color: #262b31;
-  text-align: center;
   color: #aaa;
 }
 
@@ -12,14 +11,20 @@ body {
   padding: 0;
 }
 
+header {
+  padding: 1.5rem 1rem;
+}
+
 header,
 footer {
   background-color: #1d1f22;
 }
 
-main {
-  height: 100%;
+header i {
+  margin-right: 1rem;
 }
+
+
 
 footer,
 .footer-icon a {
@@ -31,6 +36,6 @@ footer,
   margin: 0 0.3rem;
 }
 
-.footer-icon a:hover{
-    color: #4799EB;
+.footer-icon a:hover {
+  color: #4799eb;
 }

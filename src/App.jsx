@@ -1,9 +1,9 @@
-import MiApi from './componentes/MiApi';
+import Header from './componentes/Header';
 import Buscador from './componentes/Buscador';
+import MiApi from './componentes/MiApi/MiApi';
+import Footer from './componentes/Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-import Footer from './componentes/Footer';
-import Header from './componentes/Header';
 
 // import { useState } from 'react'
 

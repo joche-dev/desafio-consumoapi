@@ -1,9 +1,12 @@
-import React from 'react'
+import React from 'react';
 
 export default function Header() {
   return (
-    <header className='p-3'>
-        <h1>Explorador de Juegos</h1>
-      </header>
-  )
+    <header>
+      <h1>
+      <i className="fa-solid fa-dragon"></i>
+        <span>Explorador de Juegos</span>
+      </h1>
+    </header>
+  );
 }
