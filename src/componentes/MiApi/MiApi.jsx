@@ -45,11 +45,11 @@ export default function MiApi() {
       const date2 = new Date(game2.release_date);
       return date2 - date1;
     }
-    if (sort === 'az'){
-      return game1.title.localeCompare(game2.title)
+    if (sort === 'az') {
+      return game1.title.localeCompare(game2.title);
     }
-    if (sort === 'za'){
-      return game2.title.localeCompare(game1.title)
+    if (sort === 'za') {
+      return game2.title.localeCompare(game1.title);
     }
   }
 

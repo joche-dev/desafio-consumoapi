@@ -15,7 +15,9 @@ export default function Footer() {
             <i className="fa-brands fa-whatsapp"></i>
           </a>
         </div>
-        <p className='m-0'>©2023 Todos los derechos reservados - Explorador de Juegos</p>
+        <p className="m-0">
+          ©2023 Todos los derechos reservados - Explorador de Juegos
+        </p>
       </footer>
     </>
   );
